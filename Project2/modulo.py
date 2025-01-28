@@ -11,5 +11,5 @@ def area_sombreada (lado:float):
     circulo  = area_circulo (radio)
     cuadrado = area_cuadrado(lado)
 
-    shaded_area = round (cuadrado - circulo,2,)
+    shaded_area = round (cuadrado - circulo,2)
     return (shaded_area)
