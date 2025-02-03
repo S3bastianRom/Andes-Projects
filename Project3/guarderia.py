@@ -1,12 +1,13 @@
-from perro import Perro
 from concentrado import Concentrado
 
-perro_1 = Perro("Zeus", 8, "criollo", 18.5)
-perro_2 = Perro("Leonardo", 2, "Pastor Belga", 25.6)
+class Guarderia:
+    def __init__(self)->None:
+        self.__concentrados = []
 
-concentrado_max = Concentrado("Max", 187569.58, 15800, 654654654654)
-print (perro_1.dar_informacion())
+    def nuevo_concentrado(self, concentrado : Concentrado)->None:
+        self.__concentrados.append (concentrado)
 
-perro_1.dar_nombre = 55
-
-print (perro_1.dar_informacion())
+    def listar_concentrados(self)->list:
+        print("Lista de concentrados disponibles:")
+        for conc in self.__concentrados:
+            print(conc.nombre)
