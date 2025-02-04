@@ -1,6 +1,6 @@
 # 📂 Backend with Python - Project repositories
 
-Welcome to my projects repository of the Andes University. This repository contains projects regarding the **backend with python** course.on Python, con el que hemos cubierto POO y desarrollo backed..
+Welcome to my project's repository for Andes University. This repository contains projects related to the **Backend with Python** course.
 
 ## 📌 Table of Contents
 Click on any project to navigate:
@@ -11,7 +11,7 @@ Click on any project to navigate:
 4. 🔢 [POO-2](./Project4/)
 
 ## 📜 About
-This project helps me to have a more clear structure of lmy learning path as loing with all the documentation.
+This project helps me structure my learning path more clearly, along with all the documentation
 
 ## 🛠️ How to Use
 1. Click on any project from the **Table of Contents** to access its files.
