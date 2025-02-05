@@ -32,3 +32,5 @@ elif menu_value == "2":
     print ("_________")
     for concen in concent_list:
         print (f"{concen.nombre} tiene una rentabilidad de {concen.calcular_rentabilidad()}%")
+
+#Completed
