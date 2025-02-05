@@ -1,6 +1,7 @@
 from boa_constrictor import Boa_Constrictor
 from huron import Huron
 
+#Definicion funciones de menu
 def menu_exit():
     print ("Saliending")
     exit()
@@ -8,6 +9,7 @@ def menu_exit():
 bola = Boa_Constrictor("Geraldine", 5, 2, "Brasil", 100)
 roco = Huron("Oscar", 2, 1, "Argentina", 50)
 
+#Menu
 menu = {
     "1": ("Revisar Boa", bola.hacer_sonido),  
     "2": ("Revisar Huron", roco.hacer_sonido),  
@@ -16,6 +18,7 @@ menu = {
     "5": ("Quit", menu_exit)
 }
 
+#Iterador de menu
 for a in sorted(menu.keys()):
     print (f"{a}: {menu[a][0]}")
 
