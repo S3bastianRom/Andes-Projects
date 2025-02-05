@@ -4,6 +4,7 @@ from guarderia import Guarderia
 
 from concentrado import Concentrado
 
+#Concentrados
 concentrado_1 = Concentrado("DogMax", 35.50, 8050, "INV-12345")
 concentrado_2 = Concentrado("NutriCan", 28.99, 3080, "INV-67890")
 concentrado_3 = Concentrado("Perrito Feliz", 40.75, 50, "INV-54321")
@@ -13,6 +14,7 @@ concentrado_5 = Concentrado("SuperDog", 29.99, 3, "INV-24680")
 concent_list = [concentrado_1, concentrado_2, concentrado_3, concentrado_4, concentrado_5]
 guarda_perros = Guarderia()
 
+#Perros
 perro1 = Perro("Max", 30, "German Sheperd", 27.3, concentrado_1)
 perro2 = Perro("Zeuz",40, "Bulldog", 28.2, concentrado_2)
 perro3 = Perro("Tatan",50, "Bull terrier", 23.9, concentrado_3)
@@ -32,5 +34,3 @@ elif menu_value == "2":
     print ("_________")
     for concen in concent_list:
         print (f"{concen.nombre} tiene una rentabilidad de {concen.calcular_rentabilidad()}%")
-
-#Completed
