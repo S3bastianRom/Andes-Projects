@@ -6,7 +6,6 @@
 *.parquet
 *.db
 *.sqlite
-models/
 *.h5
 
 #Folder
