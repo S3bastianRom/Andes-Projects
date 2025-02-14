@@ -2,10 +2,15 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Sebas el crack</title>
+    <title>Guarderias el crack</title>
 </head>
 <body>
-    <h1> Bienvenido Sebas, eres un crack  </h1>
-    <p> Edad: 29 </p>
+    <ul>
+        {% for p in perro %}
+            <h1> Nombre: {{ p.nombre }} </h1>
+            <h2> Raza: {{ p.raza }} </h2>
+            <p> Edad: {{ p.edad }} años Peso: {{ p.peso }} kg</p>
+        {% endfor %}
+    </ul>
 </body>
 </html>

@@ -1,4 +1,3 @@
-#Missing getters and setters
 from iproducto import iProducto
 from funciones import costos, las_calorías, rentabilidad
 

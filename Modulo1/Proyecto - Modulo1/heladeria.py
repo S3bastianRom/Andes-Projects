@@ -10,7 +10,6 @@ class Heladeria ():
 
 
     #Getters and setters 
-    #Getter and setter ingredientes and method to add ingredientes and to check if an ingredient is existent or not
     @property
     def ingredientes(self) -> list:
         return self.__ingredientes
