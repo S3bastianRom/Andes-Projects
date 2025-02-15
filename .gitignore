@@ -6,6 +6,7 @@
 *.parquet
 *.db
 *.sqlite
+InClass/
 *.h5
 
 #Folder
