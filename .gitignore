@@ -8,6 +8,8 @@
 *.sqlite
 InClass/
 *.h5
+*.docx
+*.pdf
 
 #Folder
 raw/
