@@ -1,0 +1,53 @@
+<<<<<<< HEAD
+# Data Files
+*.csv
+*.tsv
+*.json
+*.parquet
+*.db
+*.sqlite
+InClass/
+*.h5
+*.docx
+*.pdf
+
+#Folder
+raw/
+
+# Python Bytecode and Cache
+__pycache__/
+*.pyc
+
+# Virtual Environments
+.code-workspace
+venv/
+.env
+.venv/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# System Files
+.DS_Store
+.Thumbs.db
+
+# IDE Configurations
+.vscode/
+.idea/
+
+# Environment Configuration
+.docker/
+*.yml
+=======
+# Compiled source #
+###################
+*.csv
+__pycache__/
+*.pyc
+.env
+>>>>>>> d824887780db377cb462d6ccf578df2f6f0b39e9
