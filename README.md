@@ -36,7 +36,25 @@ The course has been divided into different modules to cover different areas of e
         **| SQL**
     * [Project 2 - Part 2](./Modulo2/Project2_Part2/)
         **| Flask app**
+    * [Project 3](./Modulo2/Project3_Part1/)
+        **| Testing and errors**
+    * [Module project](./Modulo2/Project%20-%20Module2/)
+        **| Module project**
 
+        With this project we moved the ice cream store to a web application that'll allow to sale ice cream checking the product availability and testing each one of the methods at the same time registering all the ingredients, sales and general information into a MySQL database leveraging the MVC model to ensure consistency, maintanibility and clean code.
+
+3. 🐍 [Module 3](./Modulo3/)
+
+    Once acquired the solid basis on the MVC and the OOP paradigm, we moved to a higher stage of Flask, leveraging its features, such as authentication, authorization, API's, endpoints with blueprints in order to create clean and maintanable code also we learned about the scalability and segurity. 
+
+    * [Project 1](./Modulo3/Project1/)
+        **| Authentication and authorization**
+    * [Project 2](./Modulo3/Project2/)
+        **| API REST**
+    * [Module project](./Modulo3/Project%20-%20Module3/)
+        **| Module project**
+
+        As part of the improvements that the ice cream store would need for the future in this module project we added a layer of security with authentication and authorization to keep the data and processes safe, we also added the API REST endpoints that are going to give a JSON as an output which third party apps can use.
 
 ## 📜 About
 This project helps me structure my learning path more clearly, along with all the documentation
